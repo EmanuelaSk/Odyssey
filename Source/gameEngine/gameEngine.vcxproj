@@ -158,10 +158,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="checkStorage.cpp" />
+    <ClCompile Include="CPUSpeedDisplay.cpp" />
     <ClCompile Include="gameEngine.cpp" />
+    <ClCompile Include="windowCheck.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="checkStorage.h" />
+    <ClInclude Include="CPUSpeedDisplay.h" />
+    <ClInclude Include="windowCheck.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

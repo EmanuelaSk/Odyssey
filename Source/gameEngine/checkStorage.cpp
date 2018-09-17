@@ -1,5 +1,5 @@
 /***************************
-Lab 1
+Lab 2
 
 File name:
 checkStorage.cpp
@@ -50,7 +50,7 @@ void CheckStorage::availableMemory()
 	minAvailStorage = 6000000000000000000;
 	//check for available memory
 	if (minAvailStorage > virtMem && physMem) {
-		cout << "ERROR: not enough available memory" << endl;
+		cout << "ERROR: not enough available memory" << endl << endl;
 	}
 	else
 	{
@@ -59,7 +59,7 @@ void CheckStorage::availableMemory()
 
 	//checking for available storage in bytes
 	cout << "Amount of VIRTUAL MEMORY available: " << memory.ullAvailVirtual /(1024*1024)<<" MB"<< endl;
-	cout << "Amount of RAM available: " << memory.ullAvailPhys /(1024*1024) <<" MB"<< endl;
+	cout << "Amount of RAM available: " << memory.ullAvailPhys /(1024*1024) <<" MB"<< endl <<endl;
 
 }
 
